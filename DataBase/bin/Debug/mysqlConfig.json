@@ -1,0 +1,11 @@
+{
+  "config": {
+    "server": "localhost",
+    "user": "root",
+    "pwd": "123123",
+    "database": "autotest"
+  },
+  "RecordDefaultValue": {
+
+  }
+}

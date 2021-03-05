@@ -1,0 +1,14 @@
+E:\GitHub\ATControl\DataBase\obj\Debug\DataBase.csprojAssemblyReference.cache
+E:\GitHub\ATControl\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+E:\GitHub\ATControl\DataBase\bin\Debug\mysqlConfig.json
+E:\GitHub\ATControl\DataBase\bin\Debug\DataBase.dll.config
+E:\GitHub\ATControl\DataBase\bin\Debug\DataBase.dll
+E:\GitHub\ATControl\DataBase\bin\Debug\DataBase.pdb
+E:\GitHub\ATControl\DataBase\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub\ATControl\DataBase\bin\Debug\NLog.dll
+E:\GitHub\ATControl\DataBase\bin\Debug\SqlSugar.dll
+E:\GitHub\ATControl\DataBase\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub\ATControl\DataBase\bin\Debug\NLog.xml
+E:\GitHub\ATControl\DataBase\obj\Debug\DataBase.csproj.CopyComplete
+E:\GitHub\ATControl\DataBase\obj\Debug\DataBase.dll
+E:\GitHub\ATControl\DataBase\obj\Debug\DataBase.pdb
