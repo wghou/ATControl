@@ -1,0 +1,13 @@
+E:\GitHub\ATControl\ATControl\bin\Debug\net40\ATControl.dll
+E:\GitHub\ATControl\ATControl\bin\Debug\net40\ATControl.pdb
+E:\GitHub\ATControl\ATControl\bin\Debug\net40\Newtonsoft.Json.dll
+E:\GitHub\ATControl\ATControl\bin\Debug\net40\NLog.dll
+E:\GitHub\ATControl\ATControl\bin\Debug\net40\SqlSugar.dll
+E:\GitHub\ATControl\ATControl\bin\Debug\net40\stateless.dll
+E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.csprojAssemblyReference.cache
+E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.csproj.CoreCompileInputs.cache
+E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.AssemblyInfoInputs.cache
+E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.AssemblyInfo.cs
+E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.csproj.CopyComplete
+E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.dll
+E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.pdb
