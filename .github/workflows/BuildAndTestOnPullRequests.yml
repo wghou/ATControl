@@ -1,0 +1,35 @@
+name: CI for Pull Requests
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  Build_ATControl_solution:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        dotnet-version: 4.0.x
+        
+    - name: Install dependencies
+      run: dotnet restore
+      
+    - name: Build ATControl solution
+      run: dotnet build  ATControl.sln --configuration Release --no-restore
+      
+    - name: Pack alpha version
+      if: github.ref == 'refs/heads/dev' && github.event_name == 'push'
+      run: dotnet pack ATControl/ATControl.csproj --version-suffix dev-${{github.run_id}} --configuration Release
+    - name: Publish alpha version
+      if: github.ref == 'refs/heads/dev' && github.event_name == 'push'
+      run: dotnet nuget push ATControl\bin\Release\*.nupkg -s nuget.org --api-key ${{ secrets.NUGET_API_KEY }}
+  
+    - name: Pack Release version
+      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+      run: dotnet pack ATControl/ATControl.csproj --configuration Release
+    - name: Publish Release version
+      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+      run: dotnet nuget push ATControl\bin\Release\*.nupkg -s nuget.org --api-key ${{ secrets.NUGET_API_KEY }}
