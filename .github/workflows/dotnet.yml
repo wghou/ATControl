@@ -24,7 +24,7 @@ jobs:
       run: donet build --configuration Release --no-restore
       working-directory: ./ATControl/
     - name: Publish
-      uses: brandedoutcast/publish-neget@v2.5.2
+      uses: brandedoutcast/publish-nuget@v2.5.2
       with:
        PROJECT_FILE_PATH: ATControl/ATControl.csproj
        NUGET_KEY: ${{secrets.NUGET_API_KEY}}
