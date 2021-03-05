@@ -25,11 +25,11 @@ jobs:
       run: dotnet pack ./ATControl/ATControl.csproj --version-suffix dev-${{github.run_id}} --configuration Release
     - name: Publish alpha version
       if: github.ref == 'refs/heads/dev' && github.event_name == 'push'
-      run: dotnet nuget push .\ATControl\bin\Release\*.nupkg -s nuget.org --api-key ${{ secrets.NUGETAPIKEY }}
+      run: dotnet nuget push .\ATControl\bin\Release\*.nupkg -s nuget.org --api-key ${{ secrets.NUGET_API_KEY }}
   
     - name: Pack Release version
       if: github.ref == 'refs/heads/master' && github.event_name == 'push'
       run: dotnet pack ./ATControl/ATControl.csproj --configuration Release
     - name: Publish Release version
       if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-      run: dotnet nuget push .\ATControl\bin\Release\*.nupkg -s nuget.org --api-key ${{ secrets.NUGETAPIKEY }}
+      run: dotnet nuget push .\ATControl\bin\Release\*.nupkg -s nuget.org --api-key ${{ secrets.NUGET_API_KEY }}
