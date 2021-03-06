@@ -5,12 +5,5 @@ E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.csproj.CoreComp
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.AssemblyInfoInputs.cache
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.AssemblyInfo.cs
 E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\ATControl.pdb
-E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\SeaBirdInst.dll
-E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\DataBase.dll
-E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\SeaBirdInst.pdb
-E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\SeaBirdInst.dll.config
-E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\DataBase.pdb
-E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\DataBase.dll.config
-E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.csproj.CopyComplete
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.dll
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.pdb

@@ -4,12 +4,6 @@ E:\GitHub\ATControl\ATControl\bin\Debug\net45\Newtonsoft.Json.dll
 E:\GitHub\ATControl\ATControl\bin\Debug\net45\NLog.dll
 E:\GitHub\ATControl\ATControl\bin\Debug\net45\SqlSugar.dll
 E:\GitHub\ATControl\ATControl\bin\Debug\net45\stateless.dll
-E:\GitHub\ATControl\ATControl\bin\Debug\net45\SeaBirdInst.dll
-E:\GitHub\ATControl\ATControl\bin\Debug\net45\DataBase.dll
-E:\GitHub\ATControl\ATControl\bin\Debug\net45\SeaBirdInst.pdb
-E:\GitHub\ATControl\ATControl\bin\Debug\net45\SeaBirdInst.dll.config
-E:\GitHub\ATControl\ATControl\bin\Debug\net45\DataBase.pdb
-E:\GitHub\ATControl\ATControl\bin\Debug\net45\DataBase.dll.config
 E:\GitHub\ATControl\ATControl\obj\Debug\net45\ATControl.csprojAssemblyReference.cache
 E:\GitHub\ATControl\ATControl\obj\Debug\net45\ATControl.csproj.CoreCompileInputs.cache
 E:\GitHub\ATControl\ATControl\obj\Debug\net45\ATControl.AssemblyInfoInputs.cache
