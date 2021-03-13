@@ -10,7 +10,7 @@ using NLog;
 
 namespace ATControl.Utils
 {
-    public partial class UtilsDeviceStateM
+    public partial class UtilsDeviceStateM : UtilsDeviceStateMBase
     {
         /// <summary>
         /// 仪器设备 - 多个
@@ -36,7 +36,7 @@ namespace ATControl.Utils
         /// <param name="child"></param>
         /// <param name="cmd"></param>
         /// <returns></returns>
-        public bool initInstDevices(JArray child, JObject cmd)
+        public override bool initInstDevices(JArray child, JObject cmd)
         {
             bool rlt = initInstDevices(child);
 
@@ -66,7 +66,7 @@ namespace ATControl.Utils
         /// </summary>
         /// <param name="child"></param>
         /// <returns></returns>
-        public bool initInstDevices(JArray child)
+        public override bool initInstDevices(JArray child)
         {
             try
             {
@@ -106,7 +106,7 @@ namespace ATControl.Utils
         /// <summary>
         /// 根据窗口输入参数，配置仪器
         /// </summary>
-        public void configInstDeviceInternal()
+        public override void configInstDeviceInternal()
         {
             var t1 = new Task(() => {
                 bool confOk = true;
@@ -131,7 +131,7 @@ namespace ATControl.Utils
         /// </summary>
         /// <param name="testId"></param>
         /// <returns></returns>
-        private bool getInstInfoFromSql(string testId)
+        protected bool getInstInfoFromSql(string testId)
         {
             // 根据 TestID，从远程数据库查找温度点信息 TestOrderSqlrd，配置 SensorDeviceBase.testOrders
             //InstDeviceBase.testOrders = sqlWriter.QueryValue<TestOrderSqlrd>(testIdSql);
@@ -186,6 +186,39 @@ namespace ATControl.Utils
             }
 
             return true;
+        }
+
+        /// <summary>
+        /// 开始仪器设备的测量
+        /// </summary>
+        /// <param name="tp"></param>
+        /// <returns></returns>
+        public override bool StartDeviceMeasure(float tp)
+        {
+            // 开始仪器测量温度
+            bool rlt = true;
+            foreach (var itm in _instDevices)
+            {
+                rlt &= itm.StartMeasure(tp);
+            }
+
+            return rlt;
+        }
+
+        /// <summary>
+        /// 开始仪器设备数据存储
+        /// </summary>
+        /// <returns></returns>
+        public override bool StartDeviceStore()
+        {
+            // 开始存储仪器值
+            bool rlt = true;
+            foreach (var itm in _instDevices)
+            {
+                rlt &= itm.StartStore();
+            }
+
+            return rlt;
         }
     }
 }
