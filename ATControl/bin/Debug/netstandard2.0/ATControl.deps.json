@@ -7,8 +7,10 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "ATControl/0.0.2": {
+      "ATControl/0.0.3": {
         "dependencies": {
+          "Core.System.Configuration.Install": "1.1.0",
+          "MQTTnet": "3.0.15",
           "NETStandard.Library": "2.0.3",
           "NLog": "4.7.8",
           "Newtonsoft.Json": "12.0.3",
@@ -16,11 +18,26 @@
           "SuperSocket": "1.6.6.1",
           "SuperSocket.ClientEngine": "0.10.0",
           "SuperSocket.Engine": "1.6.6.1",
+          "SuperSocket.WebSocket": "1.6.6.1",
           "System.IO.Ports": "5.0.0",
+          "System.ServiceProcess.ServiceController": "5.0.0",
           "stateless": "5.10.1"
         },
         "runtime": {
           "ATControl.dll": {}
+        }
+      },
+      "Core.System.Configuration.Install/1.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Diagnostics.EventLog": "5.0.0",
+          "System.Diagnostics.PerformanceCounter": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.Install.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
         }
       },
       "log4net/2.0.3": {
@@ -51,6 +68,14 @@
           "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "MQTTnet/3.0.15": {
+        "runtime": {
+          "lib/netstandard2.0/MQTTnet.dll": {
+            "assemblyVersion": "3.0.15.0",
+            "fileVersion": "3.0.15.0"
           }
         }
       },
@@ -204,6 +229,18 @@
           }
         }
       },
+      "SuperSocket.WebSocket/1.6.6.1": {
+        "dependencies": {
+          "SuperSocket": "1.6.6.1",
+          "log4net": "2.0.3"
+        },
+        "runtime": {
+          "lib/net45/SuperSocket.WebSocket.dll": {
+            "assemblyVersion": "1.6.6.1",
+            "fileVersion": "1.6.6.1"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "runtime": {
           "lib/netstandard2.0/System.Buffers.dll": {
@@ -277,6 +314,25 @@
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.EventLog/5.0.0": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
         }
       },
       "System.Diagnostics.Tracing/4.3.0": {
@@ -719,6 +775,19 @@
           }
         }
       },
+      "System.ServiceProcess.ServiceController/5.0.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Diagnostics.EventLog": "5.0.0",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceProcess.ServiceController.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -760,10 +829,17 @@
     }
   },
   "libraries": {
-    "ATControl/0.0.2": {
+    "ATControl/0.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Core.System.Configuration.Install/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-26p4Humu3vRr5pe3bgn8QPJ3+iJdUu7OtWnRmteHszCPKjMmnYYDF4pWTcLcQd+25H70ivKCfeOR33c41ra/dg==",
+      "path": "core.system.configuration.install/1.1.0",
+      "hashPath": "core.system.configuration.install.1.1.0.nupkg.sha512"
     },
     "log4net/2.0.3": {
       "type": "package",
@@ -799,6 +875,13 @@
       "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
       "path": "microsoft.win32.registry/5.0.0",
       "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "MQTTnet/3.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-It8ZtqJdFXQNQabV1ZaOgtlWyk922/uFLChq2EgIDypd5zUIE8z72O10k0gYM4Zq9LLYl34Ex0kcu0uxu+PA+g==",
+      "path": "mqttnet/3.0.15",
+      "hashPath": "mqttnet.3.0.15.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
@@ -1003,6 +1086,13 @@
       "path": "supersocket.engine/1.6.6.1",
       "hashPath": "supersocket.engine.1.6.6.1.nupkg.sha512"
     },
+    "SuperSocket.WebSocket/1.6.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gEHL/NH67cnnzXG1S8+WTdDL/zXhtBh08NVRp8OelpmP9R8S5KxsfX4tf2/Cyotn4Hq9y+9iyG4gau0jFz4ToA==",
+      "path": "supersocket.websocket/1.6.6.1",
+      "hashPath": "supersocket.websocket.1.6.6.1.nupkg.sha512"
+    },
     "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
@@ -1044,6 +1134,20 @@
       "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.EventLog/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FHkCwUfsTs+/5tsK+c0egLfacUgbhvcwi3wUFWSEEArSXao343mYqcpOVVFMlcCkdNtjU4YwAWaKYwal6f02og==",
+      "path": "system.diagnostics.eventlog/5.0.0",
+      "hashPath": "system.diagnostics.eventlog.5.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kE9szT4i3TYT9bDE/BPfzg9/BL6enMiZlcUmnUEBrhRtxWvurKoa8qhXkLTRhrxMzBqaDleWlRfIPE02tulU+w==",
+      "path": "system.diagnostics.performancecounter/4.7.0",
+      "hashPath": "system.diagnostics.performancecounter.4.7.0.nupkg.sha512"
     },
     "System.Diagnostics.Tracing/4.3.0": {
       "type": "package",
@@ -1289,6 +1393,13 @@
       "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.ServiceProcess.ServiceController/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p2yX167GW1pr2DCR6cW+cBKrvhli4thckXk108faFaTPHnoudb0AYPcIPq3nmrwn7IQj9FEmjpyJlXzcOmIjjw==",
+      "path": "system.serviceprocess.servicecontroller/5.0.0",
+      "hashPath": "system.serviceprocess.servicecontroller.5.0.0.nupkg.sha512"
     },
     "System.Text.Encoding/4.3.0": {
       "type": "package",

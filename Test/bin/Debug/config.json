@@ -1,0 +1,125 @@
+{
+  "?TempDev": "关于温度表的配置信息",
+  "TempDev": {
+    "TempM": {
+      "Enable": true,
+      "PortName": "COM1",
+      "BaudRate": 2400
+    },
+    "TempS": {
+      "Enable": true,
+      "PortName": "COM3",
+      "BaudRate": 2400
+    }
+  },
+  "?RelayDev": "关于继电器的配置信息",
+  "RelayDev": {
+    "RelayM": {
+      "Enable": true,
+      "PortName": "COM5",
+      "BaudRate": 9600
+    },
+    "RelayS": {
+      "Enable": true,
+      "PortName": "COM7",
+      "BaudRate": 9600
+    }
+  },
+  "?InstDev": "仪器设备接口的配置信息",
+  "InstDev": [
+    {
+      "?InstDev_1": "仪器接口 1",
+      "PortName": "COM9",
+      "BaudRate": 9600
+    },
+    {
+      "?InstDev_2": "仪器接口 2",
+      "PortName": "COM11",
+      "BaudRate": 9600
+    },
+    {
+      "?InstDev_3": "仪器接口 3",
+      "PortName": "COM13",
+      "BaudRate": 9600
+    }
+  ],
+  "InstDeviceCmd": {
+    "Enable": true,
+    "TS1": "OutputFormat=1",
+    "TS2": "ts",
+    "TSR1": "OutputFormat=0",
+    "TSR2": "ts"
+  },
+  "?IotPort": "关于用户接口的配置信息",
+  "IotPort": {
+    "MqttCloud": {
+      "Enable": true,
+      "ServerUrl": "172.29.94.132",
+      "Port": 5001,
+      "ApiKey": "public",
+      "ProductId": "admin",
+      "DeviceId": "mydeviceId"
+    },
+    "?MqttCloud": {
+      "Enable": true,
+      "ServerUrl": "183.230.40.39",
+      "Port": 6002,
+      "ApiKey": "123123123",
+      "ProductId": "270595",
+      "DeviceId": "542169339"
+    }
+  },
+  "Socket": {
+    "Enable": true,
+    "Port": 6003
+  },
+  "?AutoSample": "用于设置自动采样步骤",
+  "AutoSample": {
+    "Prepare": [
+      {
+        "Relay": [ true, false, false, false ],
+        "Time": 30
+      },
+      {
+        "Relay": [ true, true, false, true ],
+        "Time": 2
+      },
+      {
+        "Relay": [ true, true, true, true ],
+        "Time": 0
+      }
+    ],
+    "OnFlush": [
+      {
+        "Relay": [ true, true, false, true ],
+        "Time": 56
+      }
+    ],
+    "OnSample": [
+      {
+        "Relay": [ true, true, false, true ],
+        "Time": 56
+      },
+      {
+        "Relay": [ true, true, true, true ],
+        "Time": 2
+      },
+      {
+        "Relay": [ true, false, true, true ],
+        "Time": 20
+      },
+      {
+        "Relay": [ true, false, false, true ],
+        "Time": 2
+      },
+      {
+        "Relay": [ true, false, false, false ],
+        "Time": 2
+      },
+      {
+        "Relay": [ false, false, false, false ],
+        "Time": 0
+      }
+    ]
+  }
+}

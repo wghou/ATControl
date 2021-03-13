@@ -6,3 +6,5 @@ E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.AssemblyInfo.cs
 E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\ATControl.pdb
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.dll
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.pdb
+E:\Github\ATControl\ATControl\bin\Debug\netstandard2.0\Socket\supersocket.sh
+E:\Github\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.csproj.CoreCompileInputs.cache

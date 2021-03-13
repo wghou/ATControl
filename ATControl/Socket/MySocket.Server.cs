@@ -45,21 +45,23 @@ namespace ATControl.Socket
         /// <returns></returns>
         public bool Init(JObject config)
         {
+            if (!_appServer.Setup((int)config["Port"]))
+            {
+                nlogger.Error("Failed to setup!");
+                Enabled = false;
+                return false;
+            }
+
+            if (!_appServer.Start())
+            {
+                nlogger.Error("Failed to start.");
+                Enabled = false;
+                return false;
+            }
+
             try
             {
-                if (!_appServer.Setup((int)config["Port"]))
-                {
-                    nlogger.Error("Failed to setup!");
-                    Enabled = false;
-                    return false;
-                }
-
-                if (!_appServer.Start())
-                {
-                    nlogger.Error("Failed to start.");
-                    Enabled = false;
-                    return false;
-                }
+                
             }
             catch (Exception ex)
             {

@@ -11,3 +11,13 @@ E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.AssemblyInfo.cs
 E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.csproj.CopyComplete
 E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.dll
 E:\GitHub\ATControl\ATControl\obj\Debug\net40\ATControl.pdb
+E:\Github\ATControl\ATControl\bin\Debug\net40\Socket\supersocket.sh
+E:\Github\ATControl\ATControl\bin\Debug\net40\log4net.dll
+E:\Github\ATControl\ATControl\bin\Debug\net40\SuperSocket.Common.dll
+E:\Github\ATControl\ATControl\bin\Debug\net40\SuperSocket.Facility.dll
+E:\Github\ATControl\ATControl\bin\Debug\net40\SuperSocket.SocketBase.dll
+E:\Github\ATControl\ATControl\bin\Debug\net40\SuperSocket.ClientEngine.dll
+E:\Github\ATControl\ATControl\bin\Debug\net40\SuperSocket.SocketEngine.dll
+E:\Github\ATControl\ATControl\bin\Debug\net40\SuperSocket.SocketService.exe
+E:\Github\ATControl\ATControl\bin\Debug\net40\SuperSocket.ProtoBase.dll
+E:\Github\ATControl\ATControl\bin\Debug\net40\SuperSocket.WebSocket.dll
