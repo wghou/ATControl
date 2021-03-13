@@ -1,0 +1,10 @@
+E:\Github\ATControl\ATControl\bin\Release\netstandard2.0\Socket\supersocket.sh
+E:\Github\ATControl\ATControl\bin\Release\netstandard2.0\ATControl.deps.json
+E:\Github\ATControl\ATControl\bin\Release\netstandard2.0\ATControl.dll
+E:\Github\ATControl\ATControl\bin\Release\netstandard2.0\ATControl.pdb
+E:\Github\ATControl\ATControl\obj\Release\netstandard2.0\ATControl.csprojAssemblyReference.cache
+E:\Github\ATControl\ATControl\obj\Release\netstandard2.0\ATControl.AssemblyInfoInputs.cache
+E:\Github\ATControl\ATControl\obj\Release\netstandard2.0\ATControl.AssemblyInfo.cs
+E:\Github\ATControl\ATControl\obj\Release\netstandard2.0\ATControl.csproj.CoreCompileInputs.cache
+E:\Github\ATControl\ATControl\obj\Release\netstandard2.0\ATControl.dll
+E:\Github\ATControl\ATControl\obj\Release\netstandard2.0\ATControl.pdb

@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net40;net45</TargetFrameworks>
-    <AssemblyVersion>0.0.1.1</AssemblyVersion>
+    <AssemblyVersion>0.0.2.0</AssemblyVersion>
     <FileVersion>0.0.0.0</FileVersion>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Wenguo Hou</Authors>
     <Company>SIAT</Company>
     <Description>Auto Temperature Control Library.</Description>
@@ -14,10 +14,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Socket\supersocket.cmd" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="NLog" Version="4.7.8" />
     <PackageReference Include="SqlSugar" Version="5.0.2.6" />
     <PackageReference Include="stateless" Version="5.10.1" />
+    <PackageReference Include="SuperSocket" Version="1.6.6.1" />
+    <PackageReference Include="SuperSocket.ClientEngine" Version="0.10.0" />
+    <PackageReference Include="SuperSocket.Engine" Version="1.6.6.1" />
+    <PackageReference Include="SuperSocket.WebSocket" Version="1.6.6.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,9 +33,30 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="Core.System.Configuration.Install">
+      <Version>1.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="MQTTnet">
+      <Version>3.0.15</Version>
+    </PackageReference>
     <PackageReference Include="System.IO.Ports">
       <Version>5.0.0</Version>
     </PackageReference>
+    <PackageReference Include="System.ServiceProcess.ServiceController">
+      <Version>5.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Socket\supersocket.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Socket\supersocket.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

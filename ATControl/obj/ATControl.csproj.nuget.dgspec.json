@@ -5,7 +5,7 @@
   },
   "projects": {
     "E:\\Github\\ATControl\\ATControl\\ATControl.csproj": {
-      "version": "0.0.1",
+      "version": "0.0.2",
       "restore": {
         "projectUniqueName": "E:\\Github\\ATControl\\ATControl\\ATControl.csproj",
         "projectName": "ATControl",
@@ -59,6 +59,22 @@
               "target": "Package",
               "version": "[5.0.2.6, )"
             },
+            "SuperSocket": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
+            "SuperSocket.ClientEngine": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
+            "SuperSocket.Engine": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
+            "SuperSocket.WebSocket": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
             "stateless": {
               "target": "Package",
               "version": "[5.10.1, )"
@@ -80,6 +96,22 @@
               "target": "Package",
               "version": "[5.0.2.6, )"
             },
+            "SuperSocket": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
+            "SuperSocket.ClientEngine": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
+            "SuperSocket.Engine": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
+            "SuperSocket.WebSocket": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
             "stateless": {
               "target": "Package",
               "version": "[5.10.1, )"
@@ -89,6 +121,14 @@
         },
         "netstandard2.0": {
           "dependencies": {
+            "Core.System.Configuration.Install": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[3.0.15, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -107,7 +147,27 @@
               "target": "Package",
               "version": "[5.0.2.6, )"
             },
+            "SuperSocket": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
+            "SuperSocket.ClientEngine": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
+            "SuperSocket.Engine": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
+            "SuperSocket.WebSocket": {
+              "target": "Package",
+              "version": "[1.6.6.1, )"
+            },
             "System.IO.Ports": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.ServiceProcess.ServiceController": {
               "target": "Package",
               "version": "[5.0.0, )"
             },

@@ -1,7 +1,6 @@
 E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\ATControl.deps.json
 E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\ATControl.dll
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.csprojAssemblyReference.cache
-E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.csproj.CoreCompileInputs.cache
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.AssemblyInfoInputs.cache
 E:\GitHub\ATControl\ATControl\obj\Debug\netstandard2.0\ATControl.AssemblyInfo.cs
 E:\GitHub\ATControl\ATControl\bin\Debug\netstandard2.0\ATControl.pdb
