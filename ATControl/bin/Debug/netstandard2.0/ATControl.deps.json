@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "ATControl/0.0.3": {
+      "ATControl/0.0.5": {
         "dependencies": {
           "Core.System.Configuration.Install": "1.1.0",
           "MQTTnet": "3.0.15",
           "NETStandard.Library": "2.0.3",
           "NLog": "4.7.8",
           "Newtonsoft.Json": "12.0.3",
-          "SqlSugar": "5.0.2.6",
+          "SqlSugar": "5.0.2.7",
           "SuperSocket": "1.6.6.1",
           "SuperSocket.ClientEngine": "0.10.0",
           "SuperSocket.Engine": "1.6.6.1",
@@ -160,11 +160,11 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
-      "SqlSugar/5.0.2.6": {
+      "SqlSugar/5.0.2.7": {
         "runtime": {
           "lib/SqlSugar.dll": {
-            "assemblyVersion": "5.0.2.6",
-            "fileVersion": "5.0.2.6"
+            "assemblyVersion": "5.0.2.7",
+            "fileVersion": "5.0.2.7"
           }
         }
       },
@@ -829,7 +829,7 @@
     }
   },
   "libraries": {
-    "ATControl/0.0.3": {
+    "ATControl/0.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1051,12 +1051,12 @@
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
-    "SqlSugar/5.0.2.6": {
+    "SqlSugar/5.0.2.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qD0znLjvhoSiWgbu+aBB6xu1fsqMI/ZrQktTl2Q7nF0iE+fkQNmuO+Y363RiHMJF1rksAv+65zxHpxyRhJKvJg==",
-      "path": "sqlsugar/5.0.2.6",
-      "hashPath": "sqlsugar.5.0.2.6.nupkg.sha512"
+      "sha512": "sha512-afVfYY4Hwos0HxRnoETgRd/e4B+zStOVmEmCIVm0zz00iukwP6Crw/U3wYPnCeY5jIoPanmNhrVnbh0COYtcIw==",
+      "path": "sqlsugar/5.0.2.7",
+      "hashPath": "sqlsugar.5.0.2.7.nupkg.sha512"
     },
     "stateless/5.10.1": {
       "type": "package",

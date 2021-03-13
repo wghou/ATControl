@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Auto Temperature Control Library.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ATControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ATControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.5.0")]
