@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/04l674/2SymitFcs/Uav9qSpT/zn/dMN45+pprypXslS9iY2H/5sagW2VpD8+GMMn1VEiTGU2V0a1iKXp0Xvg==",
+  "dgSpecHash": "4BpCw+ZkICB6pQemRLaNeq5ndzw1uJIGm8G5hcvc0CdZ+MtLMb+P1x2KkHl+qxCjR447CuC/Tv0rIjttQ2j7pg==",
   "success": true,
   "projectFilePath": "E:\\Github\\ATControl\\ATControl\\ATControl.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,7 @@
     "C:\\Users\\wghou\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\wghou\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\wghou\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\wghou\\.nuget\\packages\\sqlsugar\\5.0.2.6\\sqlsugar.5.0.2.6.nupkg.sha512",
+    "C:\\Users\\wghou\\.nuget\\packages\\sqlsugar\\5.0.2.7\\sqlsugar.5.0.2.7.nupkg.sha512",
     "C:\\Users\\wghou\\.nuget\\packages\\stateless\\5.10.1\\stateless.5.10.1.nupkg.sha512",
     "C:\\Users\\wghou\\.nuget\\packages\\supersocket\\1.6.6.1\\supersocket.1.6.6.1.nupkg.sha512",
     "C:\\Users\\wghou\\.nuget\\packages\\supersocket.clientengine\\0.10.0\\supersocket.clientengine.0.10.0.nupkg.sha512",
@@ -106,7 +106,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'SqlSugar 5.0.2.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'SqlSugar 5.0.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "SqlSugar",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

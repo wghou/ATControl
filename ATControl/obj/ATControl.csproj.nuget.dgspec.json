@@ -57,7 +57,7 @@
             },
             "SqlSugar": {
               "target": "Package",
-              "version": "[5.0.2.6, )"
+              "version": "[5.0.2.7, )"
             },
             "SuperSocket": {
               "target": "Package",
@@ -94,7 +94,7 @@
             },
             "SqlSugar": {
               "target": "Package",
-              "version": "[5.0.2.6, )"
+              "version": "[5.0.2.7, )"
             },
             "SuperSocket": {
               "target": "Package",
@@ -145,7 +145,7 @@
             },
             "SqlSugar": {
               "target": "Package",
-              "version": "[5.0.2.6, )"
+              "version": "[5.0.2.7, )"
             },
             "SuperSocket": {
               "target": "Package",

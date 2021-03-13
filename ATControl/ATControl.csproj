@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net40;net45</TargetFrameworks>
-    <AssemblyVersion>0.0.4.0</AssemblyVersion>
+    <AssemblyVersion>0.0.5.0</AssemblyVersion>
     <FileVersion>0.0.0.0</FileVersion>
     <Version>0.0.4</Version>
     <Authors>Wenguo Hou</Authors>
@@ -20,7 +20,7 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="NLog" Version="4.7.8" />
-    <PackageReference Include="SqlSugar" Version="5.0.2.6" />
+    <PackageReference Include="SqlSugar" Version="5.0.2.7" />
     <PackageReference Include="stateless" Version="5.10.1" />
     <PackageReference Include="SuperSocket" Version="1.6.6.1" />
     <PackageReference Include="SuperSocket.ClientEngine" Version="0.10.0" />

@@ -40,7 +40,7 @@
           "lib/net40-client/NLog.dll": {}
         }
       },
-      "SqlSugar/5.0.2.6": {
+      "SqlSugar/5.0.2.7": {
         "type": "package",
         "compile": {
           "lib/SqlSugar.dll": {}
@@ -173,7 +173,7 @@
           "lib/net45/NLog.dll": {}
         }
       },
-      "SqlSugar/5.0.2.6": {
+      "SqlSugar/5.0.2.7": {
         "type": "package",
         "compile": {
           "lib/SqlSugar.dll": {}
@@ -663,7 +663,7 @@
           }
         }
       },
-      "SqlSugar/5.0.2.6": {
+      "SqlSugar/5.0.2.7": {
         "type": "package",
         "compile": {
           "lib/SqlSugar.dll": {}
@@ -2257,15 +2257,15 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "SqlSugar/5.0.2.6": {
-      "sha512": "qD0znLjvhoSiWgbu+aBB6xu1fsqMI/ZrQktTl2Q7nF0iE+fkQNmuO+Y363RiHMJF1rksAv+65zxHpxyRhJKvJg==",
+    "SqlSugar/5.0.2.7": {
+      "sha512": "afVfYY4Hwos0HxRnoETgRd/e4B+zStOVmEmCIVm0zz00iukwP6Crw/U3wYPnCeY5jIoPanmNhrVnbh0COYtcIw==",
       "type": "package",
-      "path": "sqlsugar/5.0.2.6",
+      "path": "sqlsugar/5.0.2.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/SqlSugar.dll",
-        "sqlsugar.5.0.2.6.nupkg.sha512",
+        "sqlsugar.5.0.2.7.nupkg.sha512",
         "sqlsugar.nuspec"
       ]
     },
@@ -4867,7 +4867,7 @@
     ".NETFramework,Version=v4.0": [
       "NLog >= 4.7.8",
       "Newtonsoft.Json >= 12.0.3",
-      "SqlSugar >= 5.0.2.6",
+      "SqlSugar >= 5.0.2.7",
       "SuperSocket >= 1.6.6.1",
       "SuperSocket.ClientEngine >= 0.10.0",
       "SuperSocket.Engine >= 1.6.6.1",
@@ -4877,7 +4877,7 @@
     ".NETFramework,Version=v4.5": [
       "NLog >= 4.7.8",
       "Newtonsoft.Json >= 12.0.3",
-      "SqlSugar >= 5.0.2.6",
+      "SqlSugar >= 5.0.2.7",
       "SuperSocket >= 1.6.6.1",
       "SuperSocket.ClientEngine >= 0.10.0",
       "SuperSocket.Engine >= 1.6.6.1",
@@ -4890,7 +4890,7 @@
       "NETStandard.Library >= 2.0.3",
       "NLog >= 4.7.8",
       "Newtonsoft.Json >= 12.0.3",
-      "SqlSugar >= 5.0.2.6",
+      "SqlSugar >= 5.0.2.7",
       "SuperSocket >= 1.6.6.1",
       "SuperSocket.ClientEngine >= 0.10.0",
       "SuperSocket.Engine >= 1.6.6.1",
@@ -4956,7 +4956,7 @@
           },
           "SqlSugar": {
             "target": "Package",
-            "version": "[5.0.2.6, )"
+            "version": "[5.0.2.7, )"
           },
           "SuperSocket": {
             "target": "Package",
@@ -4993,7 +4993,7 @@
           },
           "SqlSugar": {
             "target": "Package",
-            "version": "[5.0.2.6, )"
+            "version": "[5.0.2.7, )"
           },
           "SuperSocket": {
             "target": "Package",
@@ -5044,7 +5044,7 @@
           },
           "SqlSugar": {
             "target": "Package",
-            "version": "[5.0.2.6, )"
+            "version": "[5.0.2.7, )"
           },
           "SuperSocket": {
             "target": "Package",
@@ -5104,7 +5104,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'SqlSugar 5.0.2.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'SqlSugar 5.0.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "SqlSugar",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
