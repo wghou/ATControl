@@ -13,9 +13,9 @@ namespace ATControl.SeaBirdInst
     /// <summary>
     /// 
     /// </summary>
-    public sealed partial class InstSTD : InstDeviceStateM<InstSTDData, InstInfoBase>
+    public sealed partial class InstSTD37 : InstDeviceStateM<InstSTDData, InstInfoBase>
     {
-        public InstSTD(InstInfoBase info) : base(info)
+        public InstSTD37(InstInfoBase info) : base(info)
         {
             Info.InstType = TypeInst.Standard;
 

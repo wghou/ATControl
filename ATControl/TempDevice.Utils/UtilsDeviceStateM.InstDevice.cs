@@ -19,7 +19,7 @@ namespace ATControl.Utils
         /// <summary>
         /// 标准数据采集器
         /// </summary>
-        public InstSTD sdDeviceRef;
+        public InstSTD37 sdDeviceRef;
         /// <summary>
         /// 仪器设备的端口
         /// </summary>
@@ -86,7 +86,7 @@ namespace ATControl.Utils
                 {
                     InstType = TypeInst.Standard
                 };
-                sdDeviceRef = new InstSTD(info);
+                sdDeviceRef = new InstSTD37(info);
                 _instDevices.Add(sdDeviceRef);
 
 
@@ -154,7 +154,7 @@ namespace ATControl.Utils
                 if (instSql.Count == 0) { return false; }
 
                 // 在标准仪器中初始化 testID
-                (_instDevices[0] as InstSTD).Info.testId = testId;
+                (_instDevices[0] as InstSTD37).Info.testId = testId;
 
                 foreach (var itm in instSql)
                 {
